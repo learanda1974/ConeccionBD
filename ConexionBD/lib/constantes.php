@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 session_start();
-define("URLBASE","http://localhost/ConexionBD/");
+define("URLBASE","http://localhost:8081/ConeccionBD/ConexionBD/");
 /*
  * Parametros DB
  * **/

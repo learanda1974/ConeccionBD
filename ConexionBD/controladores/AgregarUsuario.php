@@ -9,12 +9,12 @@ include ("../lib/db.php");
  * and open the template in the editor.
  */
 
-$nombreusurio   = $_POST["nombreusurio"];
-$nombre         = $_POST["nombre"];
+$nombreusurio   = $_POST["nombre"];
+$nombre         = $_POST["nombreusurio"];
 $password       = $_POST["password"];
 
 $oUsr=new Usuario($nombreusurio, $nombre, $password,"");
-
+var_dump($oUsr);
 if($oUsr->Valida()){
     echo "Usuario existe";
 //    echo "<a href=".URLBASE."CambiarClave.php />Cambiar Clave</a>";

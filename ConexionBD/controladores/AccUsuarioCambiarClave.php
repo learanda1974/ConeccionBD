@@ -2,7 +2,7 @@
 include ("../clases/Usuario.php");
 include ("../lib/constantes.php");
 include ("../lib/db.php");
-
+include ("../ValidaAcceso.php");
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
